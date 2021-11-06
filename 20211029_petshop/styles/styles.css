@@ -1,0 +1,22 @@
+#div_ofertas {
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+.select {
+  position: absolute;
+  left: 88%;
+  margin-top: 8px;
+}
+.select_2 {
+  position: absolute;
+  right: 20px;
+  margin-top: 8px;
+}
+.ul_position {
+  position: absolute;
+  left: 10px;
+}
+#menu {
+  background-color: #f0a83e;
+}
