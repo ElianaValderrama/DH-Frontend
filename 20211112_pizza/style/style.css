@@ -1,0 +1,83 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.header-nav {
+  color: white;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+footer {
+  background-color: black;
+  display: flex;
+  height: 150px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  align-items: center;
+  padding-right: 30px;
+}
+#foot-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.li {
+  padding: 40px 13px;
+}
+.div-envio {
+  font-family: "Roboto", sans-serif;
+  color: red;
+  font-size: 24px;
+  position: absolute;
+  top: 120px;
+  left: 190px;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  /*margin-top: 154px;
+  margin-left: 32px;
+  position: relative;
+  width: 300px;
+  height: 530px;*/
+}
+#bloque-moto {
+  background-image: url(/20211112_pizza/imagenes/Delivery.png);
+  width: 490px;
+  height: 350px;
+  border-radius: 5px;
+}
+#span-envio {
+  color: white;
+}
+#bloque-menu {
+  background-color: white;
+}
+#podio {
+  position: absolute;
+  top: 120px;
+  left: 980px;
+  color: red;
+  font-size: 24px;
+}
+#section-top5 {
+  display: flex;
+  justify-content: space-between;
+  width: 385px;
+  height: 250px;
+  align-items: center;
+}
