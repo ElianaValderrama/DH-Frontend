@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=hea, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,22 +24,42 @@
     <header>
       <div id="div_ofertas">
         <span id="p_oferta">Grandes ofertas en comederos</span>
-        <select id="lenguaje">
-          <option>Español</option>
-          <option>Ingles</option>
-          <option>Frances</option>
-          <option>Italiano</option>
-        </select>
-        <select id="divisa">
-          <option>ARG$</option>
-          <option>COP$</option>
-          <option>USD$</option>
-        </select>
+        <div class="desplegables">
+          <select id="lenguaje">
+            <option>Español</option>
+            <option>Ingles</option>
+            <option>Frances</option>
+            <option>Italiano</option>
+          </select>
+          <select id="divisa">
+            <option>ARG$</option>
+            <option>COP$</option>
+            <option>USD$</option>
+          </select>
+        </div>
       </div>
       <div id="menu">
         <img src="img/logo_cat_dog.png" width="166.38" height="23" />
-        <img src="img/categorias.png" />
+        <nav>
+          <ul class="container">
+            <li>
+              <a href="#"><i class="fas fa-paw"></i>Categorías</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-paw"></i>Pets</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-paw"></i>Nosotros</a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-paw"></i>Contactanos</a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </header>
+    <main>
+      <div class="contenedor-comida"></div>
+    </main>
   </body>
 </html>
