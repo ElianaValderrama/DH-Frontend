@@ -302,3 +302,104 @@ form {
   font-size: 14px;
   text-align: center;
 }
+
+@media (max-width: 375px) {
+  .img-logo {
+    display: flex;
+    justify-content: flex-start;
+  }
+  #nav-mobile-1 {
+    display: none;
+  }
+  #btn-mobile-1 {
+    display: none;
+  }
+  .section-img {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 50px;
+  }
+  h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  .p-div-left-1 {
+    font-size: 13px;
+    padding: 10px;
+    text-align: center;
+  }
+  .section-img-2 {
+    flex-direction: column;
+    padding: 0%;
+  }
+  h2 {
+    font-size: 35px;
+    padding: 0px 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .p-div-left-2 {
+    font-size: 13px;
+    padding: 0px 40px 35px;
+    text-align: center;
+  }
+  .div-article {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .div-article-1 {
+    border-radius: 50px;
+    border: none;
+    margin: 0%;
+    padding: 0%;
+    background: #f3603b;
+    color: white;
+    width: 50px;
+  }
+  h4 {
+    justify-content: flex-end;
+    padding-left: 100px;
+    padding-top: -10px;
+  }
+  .p-div-right-2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 13px;
+    text-align: left;
+    line-height: 180%;
+  }
+  .bloq-mobile {
+    display: none;
+  }
+  .p-section3 {
+    font-size: 27px;
+  }
+  .section-img-4 {
+    flex-direction: column;
+    height: 300px;
+    margin-top: 45px;
+  }
+  .p-section-4 {
+    font-size: 37px;
+    padding: 30px;
+    text-align: center;
+  }
+  footer {
+    flex-direction: column-reverse;
+    height: 500px;
+  }
+  .ul-foot-1 {
+    display: flex;
+    list-style: none;
+    padding: 0px;
+  }
+  .div-foot-nav {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px;
+  }
+  .div-foot {
+    justify-content: flex-end;
+  }
+}

@@ -23,7 +23,7 @@
         alt="logo"
         class="img-logo"
       />
-      <nav>
+      <nav id="nav-mobile-1">
         <ul class="ul-header">
           <li class="li-header"><a href="#" class="a-header">Pricing</a></li>
           <li class="li-header"><a href="#" class="a-header">Product</a></li>
@@ -32,7 +32,9 @@
           <li class="li-header"><a href="#" class="a-header">Community</a></li>
         </ul>
       </nav>
-      <button type="button" class="button-get-star">Get Started</button>
+      <button type="button" class="button-get-star" id="btn-mobile-1">
+        Get Started
+      </button>
     </header>
     <main>
       <section class="section-img">
@@ -48,7 +50,8 @@
         </div>
         <img
           src="/Eliana_Valderrama_Examen_Practico_Final_FE1/imagenes/illustration-intro.svg"
-          alt=""
+          alt="Ilustración"
+          class="ilustracion"
         />
       </section>
       <section class="section-img-2">
@@ -105,7 +108,7 @@
       <section class="section-img-3">
         <p class="p-section3">What they´ve said</p>
         <div id="div-cards">
-          <div class="bloque">
+          <div class="bloque bloq-mobile">
             <img
               class="cabecera"
               src="/Eliana_Valderrama_Examen_Practico_Final_FE1/imagenes/avatar-anisha.png"
@@ -135,7 +138,7 @@
               </p>
             </section>
           </div>
-          <div class="bloque">
+          <div class="bloque bloq-mobile">
             <img
               class="cabecera"
               src="/Eliana_Valderrama_Examen_Practico_Final_FE1/imagenes/avatar-richard.png"
@@ -158,8 +161,8 @@
       </section>
       <section class="section-img-4">
         <div class="p-section-4">
-          <p>Simplify hoy your team</p>
-          <p>words today.</p>
+          <p>Simplify how your team words today.</p>
+          <p></p>
         </div>
         <div class="div-btn-4">
           <button type="button" class="button-get-star-4">Get Started</button>
@@ -196,34 +199,43 @@
           />
         </div>
       </section>
-      <section>
-        <nav>
-          <ul class="ul-foot-1">
-            <li class="li-foot-1"><a href="#" class="a-footer">Home</a></li>
-            <li class="li-foot-1"><a href="#" class="a-footer">Pricing</a></li>
-            <li class="li-foot-1"><a href="#" class="a-footer">Products</a></li>
-            <li class="li-foot-1"><a href="#" class="a-footer">About Us</a></li>
-          </ul>
-        </nav>
-      </section>
-      <section>
-        <nav>
-          <ul class="ul-foot-1">
-            <li class="li-foot-1"><a href="#" class="a-footer">Careers</a></li>
-            <li class="li-foot-1">
-              <a href="#" class="a-footer">Community</a>
-            </li>
-            <li class="li-foot-1">
-              <a href="#" class="a-footer">Privacy Policy</a>
-            </li>
-          </ul>
-        </nav>
-      </section>
+      <div class="div-foot-nav>
+        <section">
+          <nav>
+            <ul class="ul-foot-1">
+              <li class="li-foot-1"><a href="#" class="a-footer">Home</a></li>
+              <li class="li-foot-1">
+                <a href="#" class="a-footer">Pricing</a>
+              </li>
+              <li class="li-foot-1">
+                <a href="#" class="a-footer">Products</a>
+              </li>
+              <li class="li-foot-1">
+                <a href="#" class="a-footer">About Us</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+        <section>
+          <nav>
+            <ul class="ul-foot-1">
+              <li class="li-foot-1">
+                <a href="#" class="a-footer">Careers</a>
+              </li>
+              <li class="li-foot-1">
+                <a href="#" class="a-footer">Community</a>
+              </li>
+              <li class="li-foot-1">
+                <a href="#" class="a-footer">Privacy Policy</a>
+              </li>
+            </ul>
+          </nav>
+        </section>
+      </div>
       <section class="section-foot-2">
         <form action="Suscription" method="post">
           <input
             type="email"
-            id="email"
             placeholder="   Update in your inbox..."
             class="radius"
             name="email_user"
